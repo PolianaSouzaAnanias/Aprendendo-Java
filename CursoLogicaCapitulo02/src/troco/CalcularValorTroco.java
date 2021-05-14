@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class CalcularValorTroco {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in); //
+		Scanner scanner = new Scanner(System.in); // Instância da classe scaner que é resposável por ler o teclado.
 		
 		System.out.print("Digite o valor do produto: "); //Escrever mensagem no console.
 		Double valorProduto = scanner.nextDouble(); //A variável 'valorProduto' vai armazenar um valor do tipo numérico (decimal).
