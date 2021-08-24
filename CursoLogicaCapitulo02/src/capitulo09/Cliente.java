@@ -11,7 +11,10 @@ public class Cliente {
 		
 		String email;
 		
-		String obterNomeCompleto() {
+	}
+
+	public String primeiroNome;		String obterNomeCompleto() {
+			String ultimoNome = null;
 			String nomeCompleto = primeiroNome + " " + ultimoNome;
 			
 			return nomeCompleto;
@@ -19,6 +22,7 @@ public class Cliente {
 		
 		String obterDDD() {
 			
+			String telefone = null;
 			String ddd = telefone.substring(0, 2);
 			return ddd;
 		

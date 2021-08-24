@@ -15,7 +15,7 @@ public class Exercicio03 {
 		passouDeAno = notaDoAluno >= 7; // Realiza a validação se a nota do aluno é maior que 7.
 		
 		if (passouDeAno) { // Se nota for maior de 7...
-			System.out.println("Parabéns! Você passou de ano."); // Exibir mensagem no console, caso a nota do aluno for maior ou igual a 7.
+			System.out.println("Parabéns! Você foi aprovado(a)."); // Exibir mensagem no console, caso a nota do aluno for maior ou igual a 7.
 		} else { // Se não...
 			System.out.println("Infelizmente, ficou de recuperação."); // Exibir mensagem no console, caso a nota do aluno for menor de 7.
 		}
