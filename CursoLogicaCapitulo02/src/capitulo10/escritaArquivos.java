@@ -1,18 +1,15 @@
 package capitulo10;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class escritaArquivos {
 
-	public static void main(String[] args) {
-		import java.io.IOException;
-		import java.nio.file.Files;
-		import java.nio.file.Path;
-		import java.nio.file.Paths;
-		import java.util.ArrayList;
-		import java.util.Scanner;
-
-		public class EscritaArquivos {
-
-			public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 				Scanner scanner = new Scanner(System.in);
 
 				ArrayList<String> linhas = new ArrayList<String>();
@@ -31,6 +28,3 @@ public class escritaArquivos {
 				System.out.println("Fim...");
 			}
 		}
-	}
-
-}
